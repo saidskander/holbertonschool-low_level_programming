@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf(sizeof(n)\n);
+printf(sizeof(5)\n);
 return (0);
 }
