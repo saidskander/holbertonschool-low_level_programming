@@ -7,10 +7,10 @@
 **/
 int main(void)
 {
-char char;
-for (char = 'a'; char <= 'z'; char++)
-if (char != 'e' && char != 'q')
-putchar(char);
+char x;
+for (x = 'a'; x <= 'z'; x++)
+if (x != 'e' && x != 'q')
+putchar(x);
 putchar('\n');
 return (0);
 }
