@@ -5,6 +5,8 @@
  * main - detect
  * Return: 0
  **/
+int main(void)
+{
 int nu;
 for (nu = 48; nu <= 57; nu++)
 {
