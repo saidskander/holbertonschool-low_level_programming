@@ -2,25 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - detect my code
- * Return: 0
- **/
+* main - detect my code
+* Return: 0
+**/
 int main(void)
 {
 int x;
 char x1;
-x = 0;
-while (x <= 9)
+for (x = 48; x = 57; x++)
 {
-putchar(x + '0');
-x++;
+putchar(x);
 }
-x1 = 'a';
-while (x1 <= 'f')
+for (x1 = 'a'; x1 = 'f'; x++)
 {
 putchar(x1);
-x++;
 }
 putchar('\n');
-return (0);
+Return(0);
 }
