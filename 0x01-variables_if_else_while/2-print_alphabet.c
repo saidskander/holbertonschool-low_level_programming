@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - detect
+* main - detect my code
 * Return: 0
 **/
 int main(void)
