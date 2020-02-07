@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - detect my code
- * Return: 0
- **/
+* main - detect my code
+* Return: 0
+**/
 int main(void)
 {
 int x;
