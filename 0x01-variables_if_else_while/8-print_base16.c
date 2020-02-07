@@ -9,14 +9,14 @@ int main(void)
 {
 int x;
 char x1;
-x = '0';
-while (x <= '9')
+x = 0;
+while (x <= 9)
 {
-putchar(x, '0');
+putchar(x + '0');
 x++;
 }
 x1 = 'a';
-while (x1 <= 'a')
+while (x1 <= 'f')
 {
 putchar(x1);
 x++;
