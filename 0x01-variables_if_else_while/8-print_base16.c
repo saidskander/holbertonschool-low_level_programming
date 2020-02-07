@@ -12,7 +12,7 @@ char x1;
 x = '0';
 while (x <= '9')
 {
-putchar(x);
+putchar(x, '0');
 x++;
 }
 x1 = 'a';
