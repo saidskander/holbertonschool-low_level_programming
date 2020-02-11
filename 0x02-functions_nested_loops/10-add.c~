@@ -1,0 +1,14 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * add - check the code for Holberton School students.
+ * @a : var
+ * @b : var
+ * Return: Always a & b.
+ */
+int add(int a, int b)
+{
+int x;
+x=(a + b);
+return (a + b);
+}
