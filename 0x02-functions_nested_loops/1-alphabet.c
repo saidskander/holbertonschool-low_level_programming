@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - detect my code
- * Return: 0
- **/
+* main - detect my code
+* Return: 0
+**/
 void print_alphabet(void)
 {
 char x;
