@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
-#include <Holberton.h>
+#include "_putchar.c"
 /**
 * main - detect my code
 * Return: 0
