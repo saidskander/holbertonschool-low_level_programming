@@ -7,10 +7,15 @@
 **/
 int main(void)
 {
-  char *Holbertonchool=string;  
-int x;  
-for (x = 0; *Holberton[x] != '/0'; x++)
-_putchar (*Holberton[x]);
+_putchar ('H');
+_putchar ('o');
+_putchar ('l');
+_putchar ('b');
+_putchar ('e');
+_putchar ('r');
+_putchar ('t');
+_putchar ('o');
+_putchar ('n');
 _putchar ('\n');
 return (0);
 }
