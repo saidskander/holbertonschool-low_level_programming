@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * puts2 - check the code for Holberton School students.
  * @str : input .
@@ -8,7 +7,10 @@
 void puts2(char *str)
 {
 int x;
-for (x = 0; str[x] != '\0'; x = x + 2)
+int l = 0;
+for (l = 0; str[l] != '\0'; l++)
+;
+for (x = 0; x < l ; x = x + 2)
 {
 _putchar(str[x]);
 }
