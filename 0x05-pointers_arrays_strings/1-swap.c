@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * swap_int - check the code for Holberton School students.
  * @a : input
  * @b : input
  * Return: Always 0.
