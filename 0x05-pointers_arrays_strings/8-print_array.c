@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - check the code for Holberton School students.
- *
+ * @a : input
+ * @n : .
  * Return: .
  */
 void print_array(int *a, int n)
