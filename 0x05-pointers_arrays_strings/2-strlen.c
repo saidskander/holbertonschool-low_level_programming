@@ -1,16 +1,14 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
- * main - check the code for Holberton School students.
- * @a : input
- * @b : input
- * Return: Always 0.
+ * _strlen - check the code for Holberton School students.
+ * @s : input
+ * Return: .
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-int *c;
-*c = *a;
-*a = *b;
-*b = *c;
+int i;
+for (i = 0; s[i] != '\0'; i++)
+{
+}
+return (i);
 }
