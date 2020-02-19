@@ -16,4 +16,6 @@ printf("%d\n", a[x]);
 else
 printf("%d, ", a[x]);
 }
+if (a[x] == '\0')
+printf("\n");
 }
