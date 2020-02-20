@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strcmp - check the code for Holberton School students.
- * @s1 : input var 
+ * @s1 : input var
  * @s2 : input var
  * Return: Always 0.
  */
