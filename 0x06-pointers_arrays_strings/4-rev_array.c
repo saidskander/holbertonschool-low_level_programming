@@ -13,10 +13,7 @@ int x;
 int i;
 n = n - 1;
 for (i = 0; i <= n; i++)
-{
-x = a[i];
 a[i] = a[n];
-a[n] = x;
 n--;
 }
 }
