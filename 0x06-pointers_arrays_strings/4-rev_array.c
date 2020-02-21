@@ -17,5 +17,6 @@ x = a[i];
 a[i] = a[n];
 a[n] = x;
 n--;
+_putchar (n);
 }
 }
