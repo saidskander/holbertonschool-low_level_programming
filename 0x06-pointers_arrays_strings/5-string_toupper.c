@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * *string_toupper - check the code for Holberton School students.
- *
+ * @x : input variable x
  * Return: lower to upper.
  */
 char *string_toupper(char *x)
