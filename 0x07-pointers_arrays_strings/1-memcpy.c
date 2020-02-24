@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * simple_print_buffer - prints buffer in hexa
+ * *_memcpy - prints buffer in hexa
  * @dest: the address of memory to print
  * @src: the size of the memory to print
  * @n : input variable
