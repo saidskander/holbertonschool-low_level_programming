@@ -6,7 +6,7 @@
  * @s: input var
  * @b: input var
  * @n: the unsigned int
- * Return: Nothing.
+ * Return: s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
