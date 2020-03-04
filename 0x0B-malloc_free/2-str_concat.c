@@ -22,14 +22,13 @@ for (i = 0; s1[i] != '\0'; i++)
 ;
 for (u = 0; s2[u] != '\0'; u++)
 ;
-x = malloc((i + u + 1) * sizeof(char));
+u = u + 1;
+x = malloc((i + u) * sizeof(char));
 if (x == NULL)
 return (NULL);
 for (l = 0; s1[l] != '\0'; l++)
-{
 x[l] = s1[l];
 for (m = 0; s2[m] != '\0'; m++)
 x[i + m] = s2[m];
-}
 return (x);
 }
