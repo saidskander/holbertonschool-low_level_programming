@@ -19,19 +19,19 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-for (i = 0; s1[i] != '\0'; i++)
+for (i = 0; s1[i] ; i++)
 ;
-for (u = 0; s2[u] != '\0'; u++)
+for (u = 0; s2[u] ; u++)
 ;
 if (u >= n)
 u = n;
 x = malloc((i + u + 1) * sizeof(char));
 if (x == NULL)
 return (NULL);
-for (l = 0; s1[l] != '\0'; l++)
+for (l = 0; l < i; l++)
 x[l] = s1[l];
-for (m = 0; s2[m] != '\0'; m++)
-x[l + m] = s2[m];
-x[l + m] = '\0';
+for (m = 0; m < u; m++)
+x[i + m] = s2[m];
+x[i + u] = '\0';
 return (x);
 }
