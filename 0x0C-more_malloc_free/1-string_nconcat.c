@@ -6,13 +6,14 @@
  * @s1 : char s1.
  * @s2 : char s2.
  * @n : unsigned int n* Return: x.
+ * Return: x.
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 int m;
 int l;
 int i;
-int u;
+unsigned int u;
 char *x;
 if (s1 == NULL)
 s1 = "";
@@ -22,16 +23,15 @@ for (i = 0; s1[i] != '\0'; i++)
 ;
 for (u = 0; s2[u] != '\0'; u++)
 ;
-
-u = u + 1;
-x = malloc((i + u) *sizeof(char));
+u = u - 1;
 if (u >= n)
 u = n;
+x = malloc((i + u) *sizeof(char));
 if (x == NULL)
 return (NULL);
 for (l = 0; s1[l] != '\0'; l++)
 x[l] = s1[l];
-for (m = 0; s2[m] != '\0'; m++)
+for (m = 0; m < n; m++)
 x[i + m] = s2[m];
 return (x);
 }
