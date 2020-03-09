@@ -9,10 +9,9 @@
  */
 void init_dog(struct dog *d, float age, char *name, char *owner)
 {
-if (d != NULL)
 {
-x->name = name;
-x->owner = owner;
-x->age = age;
+d->name = name;
+d->owner = owner;
+d->age = age;
 }
 }
