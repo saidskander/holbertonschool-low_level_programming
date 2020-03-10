@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "dog.h"
+/**
+ * init_dog -  variable function of type initdog
+ * @d : pointer to struct dog
+ * @name : input pointer
+ * @age : input float
+ * @owner : input string pointer
+ * Return : dog info !!
+ */
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+if (d != NULL)
+{
+d->name = name;
+d->owner = owner;
+d->age = age;
+}
+}
