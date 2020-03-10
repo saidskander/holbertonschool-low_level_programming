@@ -3,11 +3,11 @@
 #define sweet_dog_h
 
 /**
- *Description: name, owner, and age.
+ *struct dog - struct dog
  *@age : float
  *@owner : string
  *@name : string
- *struct dog - struct dog
+ *Description: name, owner, and age.
  */
 typedef struct dog
 {
