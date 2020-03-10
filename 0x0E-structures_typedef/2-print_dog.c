@@ -13,7 +13,7 @@ if (d->name == NULL && d->owner == NULL)
 {
 printf("Name: (nil)");
 }
-printf("Age: %f\n", d->age);
 printf("Name: %s\n", d->name);
+ printf("Age: %f\n", d->age);
 printf("owner %s\n", d->owner);
 }
