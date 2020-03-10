@@ -2,7 +2,7 @@
 #include "dog.h"
 /**
  * print_dog - func print a struct dog
- * @d : pointer 
+ * @d : pointer
  * Return : void print_dog
  */
 void print_dog(struct dog *d)
