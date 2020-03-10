@@ -1,17 +1,35 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef sweet_dog_h
+
+#define sweet_dog_h
+
 /**
- * init_dog -  variable function of type initdog
- * @d : pointer to struct dog
- * @name : input pointer
- * @age : input float
- * @owner : input string pointer
+ *Description: name, owner, and age. 
+ *@age : float
+ *@owner : string
+ *@name : string 
+ *struct dog - struct dog
  */
-void init_dog(struct dog *d, float age, char *name, char *owner)
+typedef struct dog
 {
-{
-d->name = name;
-d->owner = owner;
-d->age = age;
+float age;
+char *name;
+char *owner;
 }
-}
+
+dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+void print_dog(struct dog *d);
+
+dog_t *new_dog(char *name, float age, char *owner);
+
+void free_dog(dog_t *d);
+
+void free_dog(dog_t *d);
+
+int _putchar(char c);
+
+void print_dog(struct dog *d);
+
+#endif
