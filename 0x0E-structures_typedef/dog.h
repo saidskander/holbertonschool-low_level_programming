@@ -9,7 +9,7 @@
  *@name : string
  *Description: name, owner, and age.
  */
-ypedef struct dog
+typedef struct dog
 {
 float age;
 char *name;
