@@ -1,8 +1,21 @@
-#include <stdio.h>
+{
+  int i;
+  if (array != NULL && cmp != NULL)
+    {
+      for (i = 0; i < size ; i++)
+	if (cmp(array[i]))
+	  return (i);
+    }
+    if (size <= 0)
+      {
+	return (-1);
+      }
+      return (-1);
+      }#include <stdio.h>
 #include "function_pointers.h"
 
 /**
- * int_index - int_index
+ * is_98 - check if a number is equal to 98
  * @array : array pointer
  * @size : size.
  * @cmp : cmp pointer.
@@ -10,7 +23,7 @@
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-int x;
+unsigned int x;
 if (array != NULL || cmp != NULL)
 {
 for (x = 0; x < size ; x++)
