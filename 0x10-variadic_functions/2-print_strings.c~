@@ -1,0 +1,28 @@
+#include "variadic_functions.h"
+/**
+ * print_strings - print_strings.
+ * @separator : const char.
+ * @n : unsigned int.
+ * Return: ps.
+ */
+void print_strings(const char *separator, const unsigned int n, ...)
+{
+unsigned int x;
+va_list ps;
+char *m;
+va_start(ps, n);
+for (x = 0; x < n; x++)
+{
+if (m == NULL)
+{
+printf("(nil)");
+}
+m = va_arg(ps, char *);
+printf("%s", m);
+if (x < n - 1 && separator != NULL)
+printf("%s", separator);
+va_end(ps);
+}
+printf("\n");
+}
+}
