@@ -20,7 +20,7 @@ return (NULL);
 if ((str == NULL) || (tmp->str != NULL))
 {
 return (NULL);
-free(box);
+free(tmp);
 }
 for (; str[len]; len++)
 tmp->str = strdup(str);
