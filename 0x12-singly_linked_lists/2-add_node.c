@@ -10,22 +10,22 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-unsigned int len;
-list_t *box;
-box = (malloc(sizeof(list_t)));
-if (box == NULL)
+unsigned int len = 0;
+list_t *tmp;
+tmp = (malloc(sizeof(list_t)));
+if (tmp == NULL)
 {
 return (NULL);
 }
-if ((str == NULL) || (box->str != NULL))
+if ((str == NULL) || (tmp->str != NULL))
 {
 return (NULL);
 free(box);
 }
-for (len = 0; str[len]; len++)
-box->str = strdup(str);
-box->len = len;
-box->next = *head;
-*head = box;
-return (box);
+for (; str[len]; len++)
+tmp->str = strdup(str);
+tmp->len = len;
+tmp->next = *head;
+*head = tmp;
+return (tmp);
 }
