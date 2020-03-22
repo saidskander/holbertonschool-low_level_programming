@@ -17,7 +17,7 @@ if (tmp == NULL)
 {
 return (NULL);
 }
-if ((str == NULL) || (tmp->str != NULL))
+if ((str == NULL) && (tmp->str != NULL))
 {
 return (NULL);
 free(tmp);
