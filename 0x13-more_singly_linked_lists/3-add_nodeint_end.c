@@ -21,8 +21,9 @@ if (*head == NULL)
 *head = add_last;
 return (add_last);
 }
-for (; x->next; x++)
+for (; x->next; x = x->next)
 ;
 x->next = add_last;
 return (add_last);
+free(add_last);
 }
