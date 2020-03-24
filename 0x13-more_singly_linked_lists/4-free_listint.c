@@ -8,7 +8,7 @@
 void free_listint(listint_t *head)
 {
 listint_t *x;
-for (; head; x++)
+for (; head; head++)
 {
 x = head;
 free(x);
