@@ -4,7 +4,6 @@
 /**
  * free_listint - free_listint
  * @head : listint_t *head
- * Return : nothing
  */
 void free_listint(listint_t *head)
 {
