@@ -9,7 +9,7 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 if (index > 128)
-/*1,3*/
+/*->128 is a funny random DEC of bit number*/
 return (-1);
 n = n >> index & 1;
 return (n);
