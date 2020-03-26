@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ * clear_bit - clear_bit
+ * @n : unsigned long int *n
+ * @index : unsigned int index
+ * Return : -1 or 1
+ */
+int clear_bit(unsigned long int *n, unsigned int index)
+{
+unsigned int x;
+/*long int bit*/
+if (n == NULL)
+{
+return (-1);
+x = 1 << index;
+}
+/*left pass by 1 bit*/
+if ((x | *n) == *n)
+{
+*n = *n ^ x;
+return (1);
+}
+}
