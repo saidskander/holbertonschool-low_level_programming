@@ -8,8 +8,8 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-if (index > 101010101)
-/*101010101 is a funny random DEC number and not a binary code number*/
+if (index > 127)
+/**/
 return (-1);
 n = n >> index & 1;
 return (n);
