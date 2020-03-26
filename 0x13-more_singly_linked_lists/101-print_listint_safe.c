@@ -7,9 +7,6 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-int x = 0;
-for (; head; x++)
-;
 if (head == NULL)
 exit(98);
 else
