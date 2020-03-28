@@ -5,7 +5,6 @@
  * TheZoo - TheZoo
  * Return: void
  */
-void TheZoo(void);
 void TheZoo(void)
 {
 printf("You're beat! and yet, you must allow,\n"

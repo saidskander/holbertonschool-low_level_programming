@@ -30,4 +30,6 @@ void free_list(list_t *head);
 
 int length_str(const char *ls);
 
+void TheZoo(void)
+
 #endif
