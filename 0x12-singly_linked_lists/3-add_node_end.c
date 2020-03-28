@@ -17,7 +17,7 @@ return (x);
  * *add_node_end - *add_node_end
  * @head : list_t **head
  * @str : const char *str
- * Return : ls
+ * Return: ls
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
