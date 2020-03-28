@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <string.h>
-#include <unistd.h>
+
 /**
- * TheZoo - TheZoo
- * Return: void
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void TheZoo(void)
+int main(void)
 {
-printf("You're beat! and yet, you must allow,\n"
-"I bore my house upon my back!\n");
-return;
+printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+return (0);
 }
