@@ -1,12 +1,9 @@
 section .data
-
-message db "Hello, Holberton",10,0 
-
+message db "Hello, Holberton", 0x0A
 format: db "%s",0
 section .text
 extern printf
 global main
-
 main:
 push rbp
 mov rbp, rsp
