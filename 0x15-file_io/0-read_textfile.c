@@ -33,7 +33,7 @@ if (rd == -1)
 {
 return (0);
 }
-wt = write(STDOUT_FILENO, space ,rd);
+wt = write(STDOUT_FILENO, space, rd);
 if (wt == -1)
 return (0);
 close(x);
