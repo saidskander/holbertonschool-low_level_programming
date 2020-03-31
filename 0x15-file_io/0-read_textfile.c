@@ -37,5 +37,5 @@ wt = write(STDOUT_FILENO, space ,rd);
 if (wt == -1)
 return (0);
 close(x);
-return (wt = write(STDOUT_FILENO, space ,rd));
+return (wt);
 }
