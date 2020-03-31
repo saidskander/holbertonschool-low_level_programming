@@ -7,7 +7,7 @@
  * create_file - create_file
  * @filename : const char *filename
  * @text_content : char *text_content
- * Return: nani 
+ * Return: nani
  */
 int create_file(const char *filename, char *text_content)
 {
