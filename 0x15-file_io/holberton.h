@@ -1,6 +1,12 @@
 #ifndef holberton_h
 #define holberton_h
 #include <unistd.h>
+/* OPEN, WRITE, READ, CLOSE */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+/* POSIX */
+#include <unistd.h>
 
 ssize_t read_textfile(const char *filename, size_t letters);
 
