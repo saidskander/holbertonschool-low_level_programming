@@ -5,8 +5,8 @@
  * cp - cp
  * @fd1 : int fd1
  * @fd2 : int fd2
- * @a1 : char *a1
- * @a2 : char *a2
+ * @a1 : char *x1
+ * @a2 : char *x2
  * return: void
  */
 void cp(int fd1, int fd2, char *x1, char *x2)
@@ -32,7 +32,7 @@ exit(98);
 /**
  * main - main
  * @ac : int ac
- * @x : char **av
+ * @x : char **x
  * Return: 0
  */
 int main(int ac, char **x)
