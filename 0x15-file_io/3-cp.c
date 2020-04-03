@@ -5,8 +5,8 @@
  * cp - cp
  * @fd1 : int fd1
  * @fd2 : int fd2
- * @a1 : char *x1
- * @a2 : char *x2
+ * @x1 : char *x1
+ * @x2 : char *x2
  * return: void
  */
 void cp(int fd1, int fd2, char *x1, char *x2)
