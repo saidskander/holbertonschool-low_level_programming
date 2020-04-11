@@ -1,39 +1,28 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- * cap_string - cap_string
- * @a : char *a
+ * cap_string - *cap_string
+ * @s: char *s string
  * Return: str
  */
-char *cap_string(char *a)
+char *cap_string(char *s)
 {
-int word = 1;
-char *pra;
-for (pra = a; *pra; pra++)
+int x = 0, j = 0;
+int sizeac;
+char asciichar[] = {32, 10, 9, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+sizeac = sizeof(asciichar) / sizeof(asciichar[0]);
+for (; s[x]; x++)
 {
-if (word == 1)
+char c = s[x];
+for (j = 0; j < sizeac; j++)
 {
-word = 0;
-if (*pra < 'z' && *pra > 'a')
-*pra -= 32;
+if (c == asciichar[j] && s[x + 1] >= 'a' && s[x + 1] <= 'z')
+{
+s[x + 1] = 'A' + (s[x + 1] - 'a');
+break;
 }
-if
-(
-*pra == ' '
-|| *pra == '\n'
-|| *pra == '\t'
-|| *pra == ','
-|| *pra == ';'
-|| *pra == '.'
-|| *pra == '!'
-|| *pra == '"'
-|| *pra == '('
-|| *pra == ')'
-|| *pra == '{'
-|| *pra == '}'
-)
-word = 1;
-pra++;
 }
-return (a);
+}
+if (s[0] >= 'a' && s[0] <= 'z')
+s[0] = 'A' + (s[0] - 'a');
+return (s);
 }
