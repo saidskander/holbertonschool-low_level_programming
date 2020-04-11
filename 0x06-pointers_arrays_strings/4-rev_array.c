@@ -4,17 +4,16 @@
  * reverse_array - reverses_array
  * @a: a = integer array
  * @n: n = number of array to reverse
- *
  * return: void
  */
 void reverse_array(int *a, int n)
 {
 int tmp;
-int *ptr = a;
-for (; &a[n--] > ptr; ptr++)
+int *pra = a;
+for (; &a[n--] > ptr; pra++)
 {
-tmp = *ptr;
-*ptr = a[n];
+tmp = *pra;
+*pra = a[n];
 a[n] = tmp;
 }
 }
