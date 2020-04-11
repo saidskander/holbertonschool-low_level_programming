@@ -1,22 +1,20 @@
 #include "holberton.h"
-#include <stdio.h>
+
 /**
- * print_array - check the code for Holberton School students.
- * @a: an array of integers
- * @n: the number of elements to swap
- * Return: reverse of the array number.
+ * reverse_array - reverses_array
+ * @a: a = integer array
+ * @n: n = number of array to reverse
+ *
+ * return: void
  */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-int x;
-int i;
-n = n - 1;
-for (i = 0; i <= n ; i++)
+int tmp;
+int *ptr = a;
+for (; &a[n--] > ptr; ptr++)
 {
-x = a[i];
-a[i] = a[n];
-a[n] = x;
-n--;
-_putchar (n);
+tmp = *ptr;
+*ptr = a[n];
+a[n] = tmp;
 }
 }
