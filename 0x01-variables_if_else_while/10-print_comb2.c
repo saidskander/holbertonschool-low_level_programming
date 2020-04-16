@@ -1,22 +1,32 @@
 #include <stdio.h>
 /**
-* main - detect my code
-* Return: 0
-**/
+ * main - main
+ * Return: 0 on success
+ */
 int main(void)
 {
-int x;
-for (x + '0'; x <= 99; x++)
+int x = '0';
+int j = '0';
+for (; x <= '9'; x++)
 {
-putchar((x / 10) + '0');
-putchar((x % 10) + '0');
+for (j = '0'; j <= '9'; j++)
+{
+putchar(x);
+putchar(j);
+if (j == '9' && x == '9')
+{
+putchar('\n');
 }
-if (x < 99)
+else
 {
 putchar(',');
 putchar(' ');
-x++;
 }
-putchar('\n');
+}
+if (j >= '9')
+{
+j = '0';
+}
+}
 return (0);
 }
