@@ -6,18 +6,18 @@
 int main(void)
 {
 int x;
-long int Cureent, two, one;
+long int Current, two, one;
 one = 1;
 two = 1;
-current = 2;
+Current = 2;
 printf("%lu", two);
-printf(", %lu", current);
+printf(", %lu", Current);
 for (x = 2; x < 50; x++)
 {
 two = one;
-one = current;
-current = two + one;
-printf(", %ld", current);
+one = Current;
+Current = two + one;
+printf(", %ld", Current);
 }
 printf("\n");
 return (0);
