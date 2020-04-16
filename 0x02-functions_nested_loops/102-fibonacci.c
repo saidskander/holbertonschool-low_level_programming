@@ -1,23 +1,24 @@
 #include <stdio.h>
 /**
  * main - main
- * Return:.
- */
+ * Return: 0 on success
+*/
 int main(void)
 {
-unsigned long x = 0, i = 0, j = 1, a;
-for (; x < 50; x++)
+int x;
+long int Cureent, two, one;
+one = 1;
+two = 1;
+current = 2;
+printf("%lu", two);
+printf(", %lu", current);
+for (x = 2; x < 50; x++)
 {
-a = i + j;
-i = j;
-j = a;
-printf("%lu", a);
-if (x == '0')
-putchar('\n');
-else
-{
-printf(", ");
+two = one;
+one = current;
+current = two + one;
+printf(", %ld", current);
 }
-}
+printf("\n");
 return (0);
 }
