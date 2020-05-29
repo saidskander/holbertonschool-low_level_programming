@@ -15,7 +15,7 @@ for (; x <= ht->size; x++)
 {
 if (ht->array[x])
 {
-for (ht->array[x])
+while (ht->array[x])
 {
 if (begin != 0)
 printf(", ");
