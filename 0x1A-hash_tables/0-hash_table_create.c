@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * *hash_table_create - create a hash table
+ * hash_table_create - create a hash table
  * @size : unsigned long intt
  * Return: Always EXIT_SUCCESS.
  */
