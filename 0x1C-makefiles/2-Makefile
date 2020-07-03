@@ -1,0 +1,8 @@
+CC = ggc
+src = holberton.c main.c
+NAME: holberton
+%.c: %.c m.h
+        $(CC) -c -o $
+all:
+        $(CC) $(src) -o homberton
+NAME: holberton
