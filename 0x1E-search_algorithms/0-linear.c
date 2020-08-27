@@ -4,7 +4,7 @@
 /**
  * linear_search - linear_search
  * @array: int *array search
- * @size_t: size_t size array
+ * @size: size_t size array
  * @value: int value
  * Return: first valueb or -1
  */
